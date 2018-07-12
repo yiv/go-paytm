@@ -1,7 +1,7 @@
 # go-paytm
 Checksum utilities for paytm write by golang
 
-This libraty provides three primary functions
+This library provides three primary functions
 
 * generate checksum
 * verify checksum

@@ -11,6 +11,8 @@ This libraty provides three primary functions
 Before integrate the paytm, you need set up the configuration
 
 ```golang
+#config.go
+
 const (
 	PaytmMerchantKey = `xxxxxxxxx`
 	MID              = `xxxxxxxxxxxxxxxxxxxx`

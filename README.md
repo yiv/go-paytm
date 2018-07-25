@@ -27,7 +27,7 @@ const (
 ```
 
 ## Examples
-GetChecksumFromArray  
+* GetChecksumFromArray  
 
 ```golang
 func GetChecksumFromArray() {
@@ -56,7 +56,7 @@ func GetChecksumFromArray() {
 }
 ```
 
-VerifyCheckum  
+* VerifyCheckum  
 
 ```golang
 func VerifyCheckum() {
@@ -71,7 +71,7 @@ func VerifyCheckum() {
 }
 ```
 
-GetTransactionStatus  
+* GetTransactionStatus  
 
 ```golang
 func GetTransactionStatus()  {

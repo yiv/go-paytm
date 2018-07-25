@@ -48,12 +48,6 @@ func VerifyCheckum() {
 	fmt.Println("ok = ", ok)
 }
 
-func encrypt() {
-	crypt, err := paytm.Encrypt([]byte("test"))
-	checksum := base64.StdEncoding.EncodeToString(crypt)
-	fmt.Println("err = ", err)
-	fmt.Println("checksum = ", checksum)
-}
 
 func GetTransactionStatus()  {
 	res, err := paytm.GetTransactionStatus("27000364888888", "TabnoADfqfWjI3twGIsjTRb97iDXlJSjq3S+fWOOtsz608mo+6JsAy600VZR/uimKR/46bdjrwgREQh4uF0L6IBeuhAhabyzUfJ5s2i5wps=")
